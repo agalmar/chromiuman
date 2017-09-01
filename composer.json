@@ -1,0 +1,25 @@
+{
+    "name": "agalmar/chromiuman",
+    "description": "The Codeception extension for automatically starting and stopping Chromedriver when running tests.",
+    "keywords": ["codeception", "extension", "chrome", "headless"],
+    "homepage": "https://github.com/agalmar/chromiuman",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agustín Álvarez Martínez",
+            "email": "agalmarandroid@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "codeception/codeception": "^2.2.7"
+    },
+    "autoload": {
+        "psr-4": {
+          "Codeception\\Extension\\": "src/"
+        }
+    },
+    "suggest": {
+        "lbaey/chromedriver": "Automatically installs chromedriver locally to your project."
+    }
+}
