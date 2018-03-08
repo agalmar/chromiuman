@@ -237,6 +237,7 @@ class Chromiuman extends Extension
             'port' => '--port',
             'adb_port' => '--adb-port',
             'log_path' => '--log-path',
+            'log_level' => '--log-level',
             'debug' => '--verbose',
             'silent' => '--silent',
             'url_base' => '--url-base',

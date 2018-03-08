@@ -93,11 +93,13 @@ The currently supported options are listed below.
     - Adb server port.
 - `log_path: {FILE}`
     - Write server log to file instead of stderr, increases log level to INFO.
+- `log_level: {LEVEL}`
+    - Set log level: ALL, DEBUG, INFO, WARNING, SEVERE, OFF
 - `debug: {true|false}`
-    - Display debug output (log verbosely) while Chromedriver runs
+    - Display debug output (log verbosely, equivalent to `log-level: {ALL}`) while Chromedriver runs
     - Default: `false`
 - `silent: {true|false}`
-    - Logs nothing
+    - Logs nothing (equivalent to `log-level: {OFF}`)
     - Default: `false`
 - `url_base: {base URL}`
     - Base URL path prefix for commands, e.g. wd/url
