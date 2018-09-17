@@ -104,8 +104,8 @@ The currently supported options are listed below.
 - `url_base: {base URL}`
     - Base URL path prefix for commands, e.g. wd/url
     - Default: `wd/url`
-- `port_server: {address}`
-    - Address of server to contact for reserving a port.
+- `replayable: {true|false}`
+    - (experimental) log verbosely and don't truncate long strings so that the log can be replayed.
 - `whitelisted_ips: {CS-IP_List}`
     - Comma-separated whitelist of remote IPv4 addresses which are allowed to connect to ChromeDriver.
 - `suites: {array|string}`

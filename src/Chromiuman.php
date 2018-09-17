@@ -241,7 +241,7 @@ class Chromiuman extends Extension
             'debug' => '--verbose',
             'silent' => '--silent',
             'url_base' => '--url-base',
-            'port_server' => '--port-server',
+            'replayable' => '--replayable',
             'whitelisted_ips' => '--whitelisted-ips'
         ];
 
