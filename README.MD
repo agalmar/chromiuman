@@ -101,6 +101,9 @@ The currently supported options are listed below.
 - `silent: {true|false}`
     - Logs nothing (equivalent to `log-level: {OFF}`)
     - Default: `false`
+- `append_log: {true|false}`
+    - Append log file instead of rewriting
+    - Default: `false`
 - `url_base: {base URL}`
     - Base URL path prefix for commands, e.g. wd/url
     - Default: `wd/url`

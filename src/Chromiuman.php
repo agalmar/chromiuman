@@ -240,6 +240,7 @@ class Chromiuman extends Extension
             'log_level' => '--log-level',
             'debug' => '--verbose',
             'silent' => '--silent',
+            'append_log' => '--append-log',
             'url_base' => '--url-base',
             'replayable' => '--replayable',
             'whitelisted_ips' => '--whitelisted-ips'
