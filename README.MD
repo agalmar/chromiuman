@@ -111,6 +111,12 @@ The currently supported options are listed below.
     - (experimental) log verbosely and don't truncate long strings so that the log can be replayed.
 - `whitelisted_ips: {CS-IP_List}`
     - Comma-separated whitelist of remote IPv4 addresses which are allowed to connect to ChromeDriver.
+- `disable_dev_shm_usage: {true|false}`
+    - Do not use /dev/shm (add this switch if seeing errors related to shared memory)
+    - Default: `false`
+- `readable_timestamp: {true|false}`
+    - Adds readable timestamps to log
+    - Default: `false`
 - `suites: {array|string}`
     - If omitted, Chromedriver is started for all suites.
     - Specify an array of suites or a single suite name.

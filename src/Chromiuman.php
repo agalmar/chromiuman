@@ -243,7 +243,9 @@ class Chromiuman extends Extension
             'append_log' => '--append-log',
             'url_base' => '--url-base',
             'replayable' => '--replayable',
-            'whitelisted_ips' => '--whitelisted-ips'
+            'whitelisted_ips' => '--whitelisted-ips',
+            'disable_dev_shm_usage' => '--disable-dev-shm-usage',
+            'readable_timestamp' => '--readable-timestamp'
         ];
 
         $params = [];
