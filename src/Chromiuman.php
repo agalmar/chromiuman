@@ -243,7 +243,9 @@ class Chromiuman extends Extension
             'append_log' => '--append-log',
             'url_base' => '--url-base',
             'replayable' => '--replayable',
-            'whitelisted_ips' => '--whitelisted-ips',
+            'enable_chrome_logs' => '--enable-chrome-logs',
+            'allowed_ips' => '--allowed-ips',
+            'allowed_origins' => '--allowed-origins',
             'disable_dev_shm_usage' => '--disable-dev-shm-usage',
             'readable_timestamp' => '--readable-timestamp'
         ];

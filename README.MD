@@ -87,12 +87,12 @@ The currently supported options are listed below.
     - Full path to the Chromedriver binary.
     - Default: `vendor/bin/chromedriver`
 - `port: {port}`
-    - Webdriver port to start chromedriver with.
+    - Webdriver port to start chromedriver with
     - Default: `9515`
 - `adb_port: {port}`
-    - Adb server port.
+    - Adb server port
 - `log_path: {FILE}`
-    - Write server log to file instead of stderr, increases log level to INFO.
+    - Write server log to file instead of stderr, increases log level to INFO
 - `log_level: {LEVEL}`
     - Set log level: ALL, DEBUG, INFO, WARNING, SEVERE, OFF
 - `debug: {true|false}`
@@ -108,9 +108,14 @@ The currently supported options are listed below.
     - Base URL path prefix for commands, e.g. wd/url
     - Default: `wd/url`
 - `replayable: {true|false}`
-    - (experimental) log verbosely and don't truncate long strings so that the log can be replayed.
-- `whitelisted_ips: {CS-IP_List}`
-    - Comma-separated whitelist of remote IPv4 addresses which are allowed to connect to ChromeDriver.
+    - (experimental) log verbosely and don't truncate long strings so that the log can be replayed
+- `enable_chrome_logs: {true|false}`
+    - show logs from the browser (overrides other logging options)
+- `allowed_ips: {CS-IP_List}`
+    - Comma-separated allowlist of remote IP addresses which are allowed to connect to ChromeDriver
+- `allowed_origins: {CS-Request_Origin_List}`
+    - comma-separated allowlist of request origins which are allowed to connect to ChromeDriver. Using `*` to allow any
+      host origin is dangerous!
 - `disable_dev_shm_usage: {true|false}`
     - Do not use /dev/shm (add this switch if seeing errors related to shared memory)
     - Default: `false`
@@ -118,8 +123,8 @@ The currently supported options are listed below.
     - Adds readable timestamps to log
     - Default: `false`
 - `suites: {array|string}`
-    - If omitted, Chromedriver is started for all suites.
-    - Specify an array of suites or a single suite name.
+    - If omitted, Chromedriver is started for all suites
+    - Specify an array of suites or a single suite name
 
 ## Usage
 
